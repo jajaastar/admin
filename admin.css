@@ -1,0 +1,125 @@
+*{
+    font-family: 'Poppins', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html, body{
+    margin: 0;
+    padding: 0;
+    max-width: 100%;
+    overflow-x: hidden;
+    background-color: #fdfaf1b9;
+}
+
+.insert-form{
+    background-color: #8fc6b7d8;
+    width: 25%;
+    height: 81%;
+    border-radius: 10px;
+    padding: 14px;
+    border: 1px solid #6b9071;
+    background: linear-gradient(120deg, #8fc6b7d8, #ffffff, #8fc6b7d8);
+    backdrop-filter: blur(3px);
+    -webkit-backdrop-filter: blur(10px);
+    box-shadow: 0 8px 25px 0 #00000080;
+    position: fixed;
+    left: 5%;
+    top: 7%;
+}
+.insert-form h1{
+    margin-left: 10%;
+    margin-top: 7%;
+    margin-bottom: 10%;
+}
+.insert-form label{
+    font-size: 14px;
+}
+.insert-form input[type=text], input[type=number]{
+    width: 280px;
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid #999;
+    margin-bottom: 5%;
+}
+.insert-form input[type=file]{
+    margin-bottom: 5%;
+}
+.table_th{ /*students' info header)*/
+    /* margin: 3px 28%; */
+    width: 60%;
+    box-sizing: border-box;
+    table-layout: fixed;
+    text-align: center;
+    border: 1px solid #6b9071;
+    background: linear-gradient(360deg, #ffffff, #8fc6b7d8, #ffffff);
+    backdrop-filter: blur(3px);
+    -webkit-backdrop-filter: blur(10px);
+    box-shadow: 0 8px 25px 0 #00000080;
+    padding: 10px;
+    font-size: 15px;
+    border-radius: 10px;
+    position: fixed;
+    left: 34%;
+    top: 40px;  
+}
+.table_th thead {
+    display: table;
+    width: 100%;
+    table-layout: fixed;
+    width: calc(100% - 16px);
+    margin-bottom: 4px;
+}
+.table_th tbody {
+    display: block;
+    max-height: 400px;   
+    overflow-y: auto;
+    width: 100%;
+}
+.table_th tbody tr {
+    display: table;
+    width: 100%;
+    table-layout: fixed;
+}
+.table_th tr:hover td {
+    background-color: #6a8f70;
+    color: #ffffff;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    -ms-transform-origin-y: scale(1.09);
+    border: 1px solid white;
+    font-size: 17px;
+    
+}
+.column_th{
+    text-align: center;
+    background-color: #8fc6b7d8;
+    padding: 10px;
+    font-size: 15px;
+    border: 1px solid #6a8f70;
+    border-radius: 5px;
+}
+
+.trr{ /*row for students info*/
+    text-align: center;
+    border: 1px solid #6b9071;
+    background-color: rgba(229, 243, 221, 0.6);
+    padding: 3px;
+    font-size: 17px;
+    border-radius: 4px;
+    word-wrap: break-word;
+    white-space: normal;
+    font-weight: 500;
+}
+.tk{ 
+    font-weight: normal;
+    padding: 8px 20px;
+    font-size: 14px;
+    text-align: center;
+    border: 2px solid #6b9071;
+    background-color: #e5f3dd;
+}
+tbody img{
+    width: 70%;
+    padding: 10px;
+}
